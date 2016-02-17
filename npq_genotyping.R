@@ -41,3 +41,4 @@ lda.fit <- lda(genotype~value, data = data_npq, subset = train_idx)
 lda.pred <- predict(lda.fit, test)
 lda.class <- lda.pred$class
 table(lda.class, test$genotype) #confusion matrix
+
