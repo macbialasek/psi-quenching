@@ -1,4 +1,4 @@
-setwd("C:/Users/maciek/Desktop/Studia_dok/Barczak/quenching/Second_iteration")
+
 library(plyr)
 library(ggplot2)
 library(stringr)
